@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD kickboxng club </title>
+</head>
+<link rel="stylesheet" href="css/pd.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+
+<body>
+    <style>
+        /* css reset */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gym.jpg')
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 2px;
+        }
+
+        .left img {
+            width: 130px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            line-height: 0px;
+            text-align: center;
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            /* border: 2px solid yellow; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            color: white;
+            display: inline-block;
+            font-size: 24px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 27px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: white;
+            padding: 6px 6px;
+            border: 2px solid rgb(255, 32, 32);
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(207, 207, 207);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 163px 72px;
+            padding: 47px 12px;
+            width: 33%;
+            border-radius: 22px
+        }
+
+        .form-group input {
+
+            text-align: center;
+            display: block;
+            width: 331px;
+            padding: 14px;
+            border: 2px solid black;
+            margin: 13px auto;
+            font-size: 22px;
+            border-radius: 16px;
+
+        }
+
+        .container h1 {
+            text-align: center;
+
+        }
+
+        .container button {
+            display: block;
+            width: 495px;
+            margin: 32px auto
+        }
+    </style>
+</body>
+<header class="header">
+    <div class="left">
+        <img src="img/gymlogo.png" alt="">
+        <div>PD fitness</div>
+
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Fitness calculator</a></li>
+            <li><a href="#">Contact us </a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        <button class="btn">call us now</button><button class="btn">email us</button>
+    </div>
+    <div class="container">
+        <h1>Join the best boxing club of koriya</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender">
+                        <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Address">
+                        </div>
+                        <button class="btn">submit</button>
+        </form>
+    </div>
+</header>
+
+</html>
